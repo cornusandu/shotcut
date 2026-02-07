@@ -37,19 +37,24 @@ Shotcut's direct (linked or hard runtime) dependencies are:
 See https://shotcut.org/credits/ for a more complete list including indirect
 and bundled dependencies.
 
-## License
+<details>
+<summary><h2> License </h2></summary>
 
 GPLv3. See [COPYING](COPYING).
+</details>
 
 ## How to build
 
 **Warning**: building Shotcut should only be reserved to beta testers or contributors who know what they are doing.
 
-### Qt Creator
+<details>
+<summary><h3> Qt Creator </h3></summary>
 
 The fastest way to build and try Shotcut development version is through [Qt Creator](https://www.qt.io/download#qt-creator).
+</details>
 
-### From command line
+<details>
+<summary><h3> From command line </h3></summary>
 
 First, check dependencies are satisfied and various paths are correctly set to find different libraries and include files (Qt, MLT, frei0r and so forth).
 
@@ -77,7 +82,10 @@ files that it reads at run-time.
 ```
 cmake --install .
 ```
+</details>
 
 ## Translation
 
 If you want to translate Shotcut to another language, please use [Transifex](https://explore.transifex.com/ddennedy/shotcut/).
+<br><br>
+<p align="middle"> © Copyright mltframework 2026, Licensed under the <a href="https://github.com/mltframework/shotcut/blob/master/COPYING">GNU GPLv3 License</a></p>
